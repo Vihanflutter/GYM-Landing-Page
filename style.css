@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #1B1020;
+    --pure: #ffffff;
+
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, rgba(0,0,0,1),rgba(0,0,0,0.2)),
+    url(./image/5506.jpg);
+    background-size: cover;
+}
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 2rem;
+
+    }
+
+    .container .logo {
+        display: flex;
+        margin-right: 1rem;
+        color: var(--pure);
+    }
+
+    .container .logo h1{
+        margin-left: 5px;
+    }
+
+    .container .menu a {
+        text-decoration: none;
+        color: var(--pure);
+    }
+
+
+    .container .menu svg {
+        height: 14px;
+        width: 25px;
+        color: var(--pure);
+    }
+
+    .navbar {
+        margin-top: 1rem;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .navbar .container .menu a {
+        margin-right: .5rem;
+
+    }
+
+.hero-container {
+    margin: 12rem 5rem;
+ color: orange;
+}
+
+.hero-container .hero-intro {
+    margin-bottom: 3rem;
+}
+.hero-container .hero-intro h1 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.hero-container .hero-intro h5 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hero-container .hero-offer h2 {
+font-size: 30px;
+}
+
+.hero-container .btn {
+    margin-top: 1rem; 
+    padding: 8px 16px;
+    border-radius: 2px;
+    background-color: orange;
+    border: none;
+}
