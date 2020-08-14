@@ -12,10 +12,17 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg, rgba(0,0,0,1),rgba(0,0,0,0.2)),
-    url(./image/5506.jpg);
-    background-size: cover;
 }
+
+header {
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(135deg, rgba(0,0,0,1),rgba(0,0,0,0.2)),
+    url(./image/5506.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden
+   }
     .container {
         display: flex;
         justify-content: space-between;
